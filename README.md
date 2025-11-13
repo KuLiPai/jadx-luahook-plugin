@@ -1,5 +1,5 @@
 # jadx-luahook-plugin
-为 Jadx 添加 LuaHook 支持，提供“复制为 LuaHook 模板代码片段”功能
+为 Jadx 添加 [LuaHook](https://github.com/kulipai/luahook) 支持，提供“复制为 LuaHook 模板代码片段”功能
 
 ## ✨ 功能简介
 本插件为 [Jadx](https://github.com/skylot/jadx) 增加了 LuaHook 相关功能，包括：
