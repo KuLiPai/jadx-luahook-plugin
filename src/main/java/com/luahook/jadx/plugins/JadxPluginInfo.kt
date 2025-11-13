@@ -19,7 +19,7 @@ class JadxPluginInfo : JadxPlugin {
 		return JadxPluginInfoBuilder.pluginId(PLUGIN_ID)
 			.name("Jadx LuaHook Plugin")
 			.description("为 Jadx 添加 LuaHook 支持 | Add LuaHook support for Jadx")
-//			.homepage("https://github.com/")
+			.homepage("https://github.com/KuLiPai/jadx-luahook-plugin")
 			.build()
 	}
 
