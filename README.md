@@ -12,7 +12,7 @@
 
 ### CLI 安装
 ```bash
-jadx plugins --install "github:你的用户名/jadx-luahook-plugin"
+jadx plugins --install "github:kulipai/jadx-luahook-plugin"
 ```
 GUI 安装
 
