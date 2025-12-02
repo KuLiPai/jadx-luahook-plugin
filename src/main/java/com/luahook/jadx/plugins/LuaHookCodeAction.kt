@@ -43,6 +43,8 @@ class LuaHookCodeAction(
 			sb.append("  class = \"$rawClassName\",\n")
 			if (args.isNotEmpty()) {
 				sb.append("  params = {${args.joinToString(", ") { "\"$it\"" }}},\n")
+			} else {
+				sb.append("  params = {},\n")
 			}
 		} else {
 			sb.append("hook {\n")
@@ -50,6 +52,8 @@ class LuaHookCodeAction(
 			sb.append("  method = \"$methodName\",\n")
 			if (args.isNotEmpty()) {
 				sb.append("  params = {${args.joinToString(", ") { "\"$it\"" }}},\n")
+			} else {
+				sb.append("  params = {},\n")
 			}
 		}
 
